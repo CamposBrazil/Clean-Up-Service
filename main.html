@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <link rel="icon" href="images/circle.logo.png"images">
+    <link rel="stylesheet" href="main2.css">
+    <link rel="stylesheet" href="about.html">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=task_alt" />
+    <title>Up Four Cleaning - Orlando</title>
+</head>
+<body>
+
+    <a href="#" id="btnTop"><i class="fa-solid fa-arrow-up"></i></a>
+    <!--Navbar-->
+    <nav class="navbar">
+    <a href="main.html"><img src="images/House Clean Logo site.jpg" alt="logo"></a> <h3><a href="tel:(321) 438-8420">(321) 438-8420</h3></a>
+     <ul class="nav-links">
+        <li><a href="main.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a onclick="scrollDownservices()"   href="#">Services</a></li>
+        <li><a onclick="scrollDown()" href="#">Contact</a></li>
+        <li><a href="main.html" class="quotefree"> Free Quote</a></li>
+     </ul>
+    </nav>  
+    <!--End Navbar-->
+    <div class="text">
+        <h1>Experience the Comfort<br> of a Perfectly<br>
+            <span>Organizade Home.</span>
+    
+        <h2>Cleaning Services | Orlando, Doctor Phillips,<br> Windermere, Winter Garden<br> and surrounding areas.</h2>
+    
+        <div class="rated">
+            <div class="rating-item">
+                <span class="material-symbols-outlined">task_alt</span>
+                <h3>5 stars rated</h3>
+            </div>
+            
+            <div class="rating-item">
+                <span class="material-symbols-outlined">task_alt</span>
+                <h3>100% Quality</h3>
+            </div>
+        </div>
+        <!--Form-->
+        <form class="form" method="post" action="back-end/main.php">
+            <div class="inputs-local">
+                <div class="names">
+             <input  type="text" name="first-name" placeholder="First Name" required>
+             <input type="text" name="last-name"   placeholder="Last Name" required>
+            </div>
+             <div class="choose-service">
+                <div class="border-type">
+                <label for="choose-service">Choose Service:</label>
+                <select id="choose-service">
+                    <option name="clean"  value="deep-cleaning"> Deep Cleaning</option>
+                    <option name="clean"  value="move-cleaning">Move-in/Move-out</option>
+                    <option name="clean" value="vacation-cleaning">Vacation</option>
+                    <option name="clean"  value="standard-cleaning">Standard Cleaning</option>
+                    <option name="clean"    value="office-cleaning">Office Cleaning</option>
+                </select>
+                </div>
+            </div>
+                <div class="phone-number">
+                    <input name="phone" type="tel" placeholder="Phone Number:" required>
+                </div>
+                <div class="email">
+                    <input name="email"  type="email" placeholder="Email" required>
+                </div>
+                <div class="address">
+                    <input name="address" type="text" placeholder="Address" required>
+                </div>
+                <div class="city-zip">
+                    <input name="city"  type="text" placeholder="City" required>
+                    <input name="zip"  type="num" placeholder="Zip Code" required>
+                </div>
+                <div class="message">
+                    <input name="message" type="text" placeholder="Comments" required>
+                </div>
+                <button class="book-now">Book Now!</button>
+             </div>
+            </div>
+        </form>
+<!--End form-->
+    <!--Services-->
+    <div class="services" id="services">
+        <h1>SERVICES</h1>
+    </div>
+    <div class="container-cards">
+        <div class="card1">
+            <h1>Residential Cleaning</h1>
+            <span>Residential cleaning is a professional service that keeps homes clean, sanitized, and organized. It typically includes all living spaces and can be scheduled as a one-time or recurring service, helping homeowners save time and enjoy a healthier environment.
+
+            </span>
+            <a href="#" class="request">Request Cleaning</a>
+        </div>
+        <div class="card2">
+            <h1>Deep Cleaning</h1>
+            <span>Deep cleaning is a detailed service that goes beyond routine cleaning, reaching tough spots and removing built-up dirt. Perfect for seasonal cleanups, first-time visits, or special occasions, it leaves your home truly fresh and spotless.
+
+            </span>
+            <a href="#" class="request">Request Cleaning</a>
+        </div>
+        <div class="card3">
+            <h1>Move-in/Move-out</h1>
+            <span>Move-In/Move-Out Cleaning prepares a home for a fresh start, offering a deep clean of every room. Ideal for tenants, landlords, or homeowners, it ensures the space is spotless and ready for a smooth transition.</span>
+            <a href="#" class="request">Request Cleaning</a>
+        </div>
+    </div>
+    <div class="container-cards2">
+        <div class="card4">
+            <h1>Vacation</h1>
+            <span>We clean and prepare your vacation rental by sanitizing bathrooms and kitchen, changing linens, dusting, cleaning floors, and removing trash. Optional restocking is available. Always clean and ready for guests.
+
+            </span>
+            <a href="#">Request Cleaning</a>
+        </div>
+        <div class="card5">
+            <h1>Office</h1>
+            <span>We provide reliable office cleaning services, including dusting, disinfecting high-touch areas, emptying trash bins, cleaning restrooms, and maintaining floors. Flexible scheduling and consistent results keep your workspace clean and professional.
+
+            </span>
+            <a href="#">Request Cleaning</a>
+        </div>
+    </div>
+
+    <!--About me-->
+    <div class="about-us">
+        <h1>About us</h1>
+        <h2>We’re a professional cleaning company dedicated to making your home or workspace spotless,<br> comfortable, and stress-free. Using eco-friendly products and proven techniques,<br> our trusted team works hard to bring freshness and cleanliness to every corner.<br> Whether it’s a routine cleaning or a one-time deep clean,<br> we ensure your space feels refreshed, healthy, and welcoming.
+
+        </h2>
+        <a href="about.html">Know More</a>
+        <div class="img-space">
+        </div>
+    </div>
+    <div class="ready">
+        <h1>Lets Do?</h1>
+        <h2>Want a Spotless Home?<br> Book Your Cleaning Today!</h2>
+        <span>Choosing our professional cleaning service means trusting a dedicated team that<br> values your comfort and peace of mind. We use eco-friendly products, attention to detail,<br> and flexible scheduling to ensure your home is always spotless, fresh, and inviting.<br> Let us handle the mess, so you can focus on what matters most.</span>
+        <a href="#">Book Now</a>
+        <div class="img-ready">
+            <img src="images/House Clean Logo site.jpg" alt="">
+        </div>
+    </div>
+
+    <!--Contact-->
+
+    <div class="contact" id="contact">
+      <h1>Contact</h1>
+      <h2>We Can Help You!</h2>
+      <div class="contact-board">
+        <div class="social-medias">
+           <a href="https://www.facebook.com/people/CleanUp-Services/61573813302190/?rdid=no1mDVjvxIemBehO&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F1BsAKhPHef%2F" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="tel:(321) 438-8420"><i class="fa-solid fa-phone"></i></a>
+        </div>
+      </div>
+      <div class="important">
+        <span>We understand that your time is limited, and arranging a cleaning service should be simple.<br> That’s why we offer a clear and easy-to-use online process. In just a few steps,<br> you can check our pricing, choose your service,<br> and book your cleaning—no phone calls or waiting required. Quick,<br> convenient, and built around your schedule."</span>
+        <a href="#">Book Now</a>
+      </div>
+      </div>
+      <div class="footer-links">
+        <span>|</span>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Services</a>
+        <a href="#">Contact Us</a>
+      </div>
+      <hr>
+      <footer>&copy; 2025 Clean Four. All Rights reserved</footer>
+      <script src="javascript/main.js"></script>
+      <script src="main.js"></script>
+      <script src="https://kit.fontawesome.com/173f9a80cc.js" crossorigin="anonymous"></script>
+</body>
+</html>

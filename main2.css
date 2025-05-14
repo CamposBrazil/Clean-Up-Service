@@ -1,0 +1,253 @@
+.ready
+{
+    background: #99ccee ;
+    
+}
+
+.ready h1
+{
+    font-family: 'QuickSand',sans-serif;
+    font-weight: 500;
+    margin-left: 40px;
+    color: #004080;
+    font-weight: 500;
+    font-size: 35px;
+    margin-top: 50px;
+    display: inline-block;
+}
+
+.ready h2
+{
+    font-family: 'Poppins', sans-serif;
+    margin-top: 45px;
+    margin-left: 6vh;
+    color:#012344;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.ready span
+{
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    margin-left: 6vh;
+    margin-top: 4vh;
+    color: #1c4356;
+    font-size: 18px;
+}
+
+.ready a
+{
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    background: #1c4356;
+    margin-left: 6vh;
+    margin-top: 5vh;
+    padding: 20px 9vh;
+    border-radius: 100px;
+    font-weight: 500;
+    box-shadow: 2px 2px 20px #1c4356;
+    transition:  all 0.4s ease;
+}
+
+.ready a:hover
+{
+    background: #fff;
+    color: #1c4356;
+    box-shadow: none;
+}
+
+
+.img-ready  img
+{
+    box-shadow: 0px 2px 5px black;
+    margin-left: 125vh;
+    margin-top: -55vh;
+    border-radius: 100%;
+    display:  inline-block;
+    margin-bottom: 5vh;
+}
+
+
+
+.contact h1
+{
+    font-family: 'Poppins', sans-serif;
+    color: #012344;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 8vh;
+}
+
+.contact h2
+{
+    text-align: center;
+    font-family: 'Poppins',sans-serif;
+    color: #012344;
+    font-weight: 500;
+    margin-top: 2vh;
+    font-size: 6vh;
+}
+
+.contact-board
+{
+    display:inline-table;
+    margin-left: 70vh;
+    height: 60vh;
+    width: 70vh;
+    border-radius: 5px;
+}
+
+.contact-board i
+{
+display: inline-block;
+    font-size: 4vh;
+    margin-top: 4vh;
+    margin-left: 12vh;
+    padding: 10px;
+    border-radius: 100px;
+    background: #012344;
+    color: #fff;
+    transition: all 0.3s ease;
+}
+
+.contact-board span
+{
+    font-size: 25px;
+    font-family: 'Poppins',sans-serif;
+    display: flex;
+    margin-left: 10vh;
+    margin-top: -4vh;
+}
+
+.contact-board a
+{
+    text-decoration: none;
+    color: #012344;
+}
+
+.contact-board i:hover
+{
+    background: #fff;
+    color: #012344;
+    box-shadow: 2px 2px 10px white;
+}
+
+.important span
+{
+    display: flex;
+    margin-left: 65vh;
+    margin-top: -45vh;
+    font-family: 'Poppins', sans-serif;
+    align-items: center;
+    font-size: 17px;
+    color: #3c596d;
+}
+
+.important a
+{
+    text-decoration: none;
+    display: inline-block;
+    margin-left: 95vh;
+    margin-top: 6vh;
+    background: #012344;
+    padding: 20px 50px;
+    color: #fff;
+    border-radius: 100px;
+    transition: all 0.3s ease;
+    box-shadow: 1px 1px 20px #1c4356;
+}
+
+.important a:hover
+{
+background: #fff;
+color: #012344;
+box-shadow: none;
+}
+
+.footer-links a
+{
+    display: inline-block;
+    text-decoration: none;
+    color: #3c596d;
+    font-family: 'Poppins',sans-serif;
+    margin-left: 8vh;
+    margin-top: 8vh;
+    transition: 0.4s;
+}
+
+.footer-links a:hover
+{
+    color: #1c4356;
+    text-decoration: underline;
+}
+
+.footer-links span
+{
+    display: inline-block;
+    font-size: 3.5vh;
+    margin-left: 6vh;
+    color: #3c596d;
+}
+
+hr
+{
+    width: 200vh;
+    margin-left: 3vh;
+    margin-top: 5vh;
+    color: #99ccee;
+    border: 1px solid #3c718b;
+}
+
+footer
+{
+    font-family: 'Poppins',sans-serif;
+    margin-left: 4vh;
+    margin-top: 3vh;
+    padding-bottom: 10vh;
+    color: #3c718b;
+}
+
+.about-me
+{ 
+    font-family: 'Poppins',sans-serif;
+}
+
+.about-me h1
+{
+    font-family: 'Poppins',sans-serif;
+    font-weight: 600;
+    color: #012344;
+    margin-top: 5vh;
+    margin-left: 10vh;
+    text-transform: uppercase;
+    font-size: 3vh;
+}
+
+.about-me span
+{
+    color: #1c4356;
+    font-size: 18px;
+    display: flex;
+    margin-left: 10vh;
+    margin-top: 4vh;
+    font-weight: 500;
+}
+
+.navbar h3 a
+{
+    text-decoration: none;
+    color: #004080;
+}
+
+.navbar h3 a:hover
+{
+    text-decoration: underline;
+}
+
+ .footer-links  .getquote a
+{
+    text-decoration: none;
+    border: 1px solid black;
+}
